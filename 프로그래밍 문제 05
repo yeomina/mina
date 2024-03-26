@@ -1,0 +1,16 @@
+package cha02;
+
+public class Pro3_05 {
+public static void main(String[] arge) {
+	for (int a = 1; a < 20; a++) {
+		for (int b = 1; b < 20; b++) {
+			for (int c = 1; c < 20; c++) {
+				
+				System.out.printf("%d, %d, %d", a, b, c);
+				
+				System.out.println();
+			}
+		}
+	}
+  }
+}
