@@ -1,0 +1,8 @@
+public class FiveThree {
+    public static void main(String[] args) {
+        for (Driection d : Driection.values()) {
+            System.out.print(d + " ");
+        }
+    }
+    enum Driection { 동, 서, 남, 북}
+}
